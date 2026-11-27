@@ -11,6 +11,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import {
   Paintbrush,
+  PaintRoller,
   Mail,
   Phone,
   MapPin,
@@ -149,7 +150,7 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <Reveal delay={0.1} className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#ff9e6b]/10 text-[#ff9e6b] text-sm font-medium mb-4">
-                <PaintRoll className="size-4" />
+                <PaintRoller className="size-4" />
                 Send us a message
               </Reveal>
               <Reveal delay={0.2}>

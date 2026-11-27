@@ -5,7 +5,7 @@ import { PaintStroke } from "@/components/paint-stroke";
 import { Reveal } from "@/components/reveal";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { Paintbrush, ArrowRight } from "lucide-react";
+import { Paintbrush, HomeIcon, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const themes = [

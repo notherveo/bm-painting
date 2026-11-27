@@ -5,7 +5,7 @@ import { PaintStroke } from "@/components/paint-stroke";
 import { Reveal } from "@/components/reveal";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { Paintbrush, ArrowRight, Check } from "lucide-react";
+import { PaintRoller, Paintbrush, Palette, HomeIcon, ArrowRight, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const values = [
@@ -16,7 +16,7 @@ const values = [
       "Every project is treated as an opportunity to create something truly special.",
   },
   {
-    icon: PaintRoll,
+    icon: PaintRoller,
     title: "Attention to Detail",
     description:
       "From the smallest brushstroke to the final cleanup, nothing is left to chance.",
@@ -168,7 +168,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <Reveal delay={0.1} className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#ff9e6b]/10 text-[#ff9e6b] text-sm font-medium mb-4">
-              <PaintRoll className="size-4" />
+              <PaintRoller className="size-4" />
               Our Process
             </Reveal>
             <Reveal delay={0.2}>
